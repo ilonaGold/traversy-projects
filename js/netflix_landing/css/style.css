@@ -107,6 +107,10 @@ img {
     text-transform: uppercase;
 }
 
+.btn-icon {
+    margin-left: 1rem;
+}
+
 /* Showcase */
 .showcase {
     width: 100%;
