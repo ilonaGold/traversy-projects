@@ -130,5 +130,18 @@ ul {
     margin-left: 10px;
 }
 
+/* Xbox */
+.xbox {
+    height: 300px;
+    width: 100%;
+    background: url('./img/xbox.png') no-repeat center center/cover;
+}
 
+.xbox .content {
+    width: 40%;
+    padding: 50px 0 0 30px;
+}
 
+.xbox p {
+    margin: 10px 0 20px;
+}
