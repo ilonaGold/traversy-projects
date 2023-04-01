@@ -43,6 +43,15 @@ ul {
     opacity: 0.9;
 }
 
+.dark {
+    color: #fff;
+}
+
+.dark .btn {
+    background: #f4f4f4;
+    color: #333;
+}
+
 /* Nav */
 .main-nav {
     display: flex;
@@ -143,7 +152,19 @@ ul {
     padding: 50px 0 0 30px;
 }
 
-.xbox p {
+.xbox p,
+.carbon p {
     margin: 10px 0 20px;
 }
 
+/* Carbon */
+.carbon {
+    height: 350px;
+    width: 100%;
+    background: url(./img/carbon.jpg) no-repeat center center/cover;
+}
+
+.carbon .content {
+    width: 55%;
+    padding: 100px 0 0 30px;
+}
