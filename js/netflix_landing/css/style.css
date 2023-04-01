@@ -217,6 +217,17 @@ img {
     color: #fff;
 }
 
+/* Hide content initially */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
 /* Tab Content 1 */
 #tab-1-content .tab-1-content-inner {
     display: grid;
