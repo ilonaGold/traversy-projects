@@ -135,6 +135,7 @@ ul {
     height: 300px;
     width: 100%;
     background: url('./img/xbox.png') no-repeat center center/cover;
+    margin-bottom: 20px;
 }
 
 .xbox .content {
@@ -145,3 +146,4 @@ ul {
 .xbox p {
     margin: 10px 0 20px;
 }
+
