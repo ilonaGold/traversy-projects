@@ -108,6 +108,11 @@ a {
     color: var(--secondary-color);
 }
 
+.bg-light {
+    background: var(--light-color);
+    color: #333;
+}
+
 .text-light {
     color: var(--light-color);
 }
