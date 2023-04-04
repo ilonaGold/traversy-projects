@@ -64,6 +64,12 @@ a {
     font-size: 2rem;
 }
 
+/* Entertainment Section */
+section#entertainment {
+    background: url('../img/section-bg.jpg') no-repeat bottom/cover;
+    padding: 10rem 0;
+}
+
 /* Utility Classes */
 .container {
     max-width: 1180px;
