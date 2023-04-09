@@ -109,6 +109,7 @@ button:focus {
 button.ghost  {
     background: transparent;
     color: #fff;
+    border: 1px solid #fff;
 }
 
 .form-container {
