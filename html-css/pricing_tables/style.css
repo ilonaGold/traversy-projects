@@ -4,6 +4,10 @@ body {
     color: #fff;
 }
 
+h2 {
+    text-align: center;
+}
+
 .col {
     float: left;
     width: 33.33%;
@@ -30,6 +34,10 @@ body {
     background-color: #111;
     color: #fff;
     font-size: 25px;
+}
+
+.price-box .header.header-green {
+    background: #4caf50;
 }
 
 .price-box li {
