@@ -18,3 +18,35 @@ body {
     justify-content: center;
     min-height: 100vh;
 }
+
+.main {
+    text-align: center;
+    width: 90%;
+    /* opacity: 0;
+    display: none; */
+    transition: opacity 2s ease-in;
+}
+
+.main h1 {
+    font-size: 40px;
+}
+
+.main p {
+    font-size: 20px;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    background: purple;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
