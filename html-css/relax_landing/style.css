@@ -64,7 +64,6 @@ ul {
 section {
     position: relative;
     padding: 0 20px;
-    border: 1px solid white;
 }
 
 /* Section Top */
@@ -83,4 +82,34 @@ section {
     top: 100px;
     right: 70px;
     width: 50%;
+}
+
+/* Section Stream */
+.section-stream {
+    min-height: 700px;
+    background: url('img/bg2.png') no-repeat center center/cover;
+}
+
+.section-stream h2 {
+    font-size: 35px;
+}
+.section-stream .play {
+    width: 25%;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+.section-stream .content {
+    position: absolute;
+    width: 50%;
+    top: 130px;
+    right: 70px;
+}
+
+.section-stream .content > div {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
