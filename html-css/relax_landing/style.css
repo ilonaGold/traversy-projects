@@ -64,6 +64,23 @@ ul {
 section {
     position: relative;
     padding: 0 20px;
-    /* border: 1px solid white; */
+    border: 1px solid white;
 }
 
+/* Section Top */
+.section-top {
+    min-height: 500px;
+    background: url('img/bg1.png') no-repeat center center/cover;
+}
+
+.section-top h1 {
+    font-size: 70px;
+    line-height: 1.3;
+}
+
+.section-top .content {
+    position: absolute;
+    top: 100px;
+    right: 70px;
+    width: 50%;
+}
