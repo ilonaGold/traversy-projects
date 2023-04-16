@@ -107,9 +107,30 @@ section {
     right: 70px;
 }
 
-.section-stream .content > div {
+.section-stream .content > div,
+.section-grid > div {
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+}
+
+/* Section Grid */
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    text-align: center;
+}
+
+.section-grid i {
+    color: var(--secondary-color);
+}
+
+.section-grid p {
+    color: var(--text-color);
+}
+
+.section-grid .dot {
+    font-size: 40px;
 }
