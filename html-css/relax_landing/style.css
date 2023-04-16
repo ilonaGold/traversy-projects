@@ -134,3 +134,17 @@ section {
 .section-grid .dot {
     font-size: 40px;
 }
+
+/* Footer */
+.footer {
+    border-top: var(--text-color) 1px solid;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
