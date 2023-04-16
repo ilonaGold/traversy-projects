@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Monserrat&display=swap');
+
+:root {
+    --primary-color: #2d2254;
+    --secondary-color: #f5c42f;
+    --text-color: #c5bbec;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Monserrat', sans-serif;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    background: var(--secondary-color);
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 30px;
+    text-transform: uppsercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.primary-text {
+    color: var(--primary-color);
+}
+
+.secondary-text {
+    color: var(--secondary-color);
+}
+
+section {
+    position: relative;
+    padding: 0 20px;
+    /* border: 1px solid white; */
+}
+
