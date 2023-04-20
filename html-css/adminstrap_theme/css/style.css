@@ -103,6 +103,12 @@ body {
     color: #333;
 }
 
+/* Progress Bars */
+.progress-bar {
+    background: #333;
+    color: #fff;
+}
+
   /* Media Queries */
 
   @media (max-width: 767px) {
