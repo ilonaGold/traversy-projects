@@ -71,6 +71,12 @@ body {
     color: #ffbbbc;
   }
 
+  .main-color-bg {
+    background-color: #e74c3c !important;
+    border-color: #c0392b !important;
+    color: #fff;
+  }
+
   /* Media Queries */
 
   @media (max-width: 767px) {
