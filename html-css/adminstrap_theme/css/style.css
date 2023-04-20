@@ -77,7 +77,7 @@ body {
   .main-color-bg {
     background-color: #e74c3c !important;
     border-color: #c0392b !important;
-    color: #fff;
+    color: #fff !important;
   }
 
   /* Header */
@@ -107,6 +107,10 @@ body {
 .progress-bar {
     background: #333;
     color: #fff;
+}
+
+.dash-box {
+    text-align: center;
 }
 
   /* Media Queries */
