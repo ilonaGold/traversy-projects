@@ -47,7 +47,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <div class="showcase-left">
-                        <img src="img/img1.jpg" alt="">
+                        <img src="img/img0.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
@@ -67,7 +67,9 @@
     <section id="testimonial">
         <div class="container">
             <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque commodi recusandae iure laborum sequi
-                quo."</p>
+                quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque commodi recusandae iure laborum
+                sequi
+                quo"</p>
             <p class="customer">- John Doe</p>
         </div>
     </section>
@@ -160,6 +162,65 @@
     <script src="https://code.jquery.com/jquery-3.6.4.js"
         integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '30px'
+        });
+        sr.reveal('.showcase-left', {
+            duration: 2000,
+            origin: 'top',
+            distance: '300px'
+        });
+        sr.reveal('.showcase-right', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px'
+        });
+        sr.reveal('.showcase-btn', {
+            duration: 2000,
+            delay: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('#testimonial div', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('.info-left', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px',
+            viewFactor: 0.2
+        });
+        sr.reveal('.info-right', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px',
+            viewFactor: 0.2
+        });
+    </script>
+
+    <script>
+        $(function () {
+            // Smooth Scrolling
+            $('a[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+
 </body>
 
 </html>
