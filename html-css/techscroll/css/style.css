@@ -79,3 +79,7 @@ p {
     border-top: #333 7px solid;
     border-bottom: #333 7px solid;
 }
+
+footer {
+    padding: 30px;
+}
