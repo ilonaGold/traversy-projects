@@ -1,7 +1,6 @@
-$light-color: #f4f4f4;
-$font-stack: Arial, Helvetica, sans-serif;
-$primary-color: #0e6cff;
-$secondary-color: #ff8700;
+@import 'config';
+@import 'utilities';
+@import 'buttons';
 
 * {
     box-sizing: border-box;
@@ -14,3 +13,70 @@ body {
     font-family: $font-stack;
     line-height: 1.6;
 }
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.showcase {
+    // background-color: $primary-color;
+    // color: set-text-color($primary-color);
+    @include set-background($primary-color);
+    height: 600px;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            padding: 15px;
+        }
+
+        a {
+            color: set-text-color($primary-color);
+        }
+
+        a:hover {
+            color: $secondary-color;
+        }
+    }
+
+    // a {
+    //     color: #fff;
+    // }
+
+    // .showcase-content
+    &-content {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+
+        img {
+            width: 50%;
+            margin-left: 50px;
+        }
+
+        h1 {
+            font-size: 50px;
+            line-height: 1.2;
+        }
+
+        // p {
+        //     margin: 20px 0;
+        // }
+    }
+}
+
+@import 'mobile';
