@@ -84,6 +84,18 @@ body {
     color: #333;
 }
 
+/* Media Queries */
+@media(max-width: 500px) {
+    .slide .content {
+        bottom: -300px;
+        left: 0;
+        width: 100%;
+    }
+    .slide.current .content {
+        transform: translateY(-300px);
+    }
+}
+
 /* Background Images */
 
 .slide:first-child {
