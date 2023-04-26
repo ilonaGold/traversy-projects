@@ -43,7 +43,7 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    translate: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .split.left .button:hover {
@@ -126,3 +126,4 @@ h1 {
 .hover-right .left:before {
     z-index: 2;
 }
+
