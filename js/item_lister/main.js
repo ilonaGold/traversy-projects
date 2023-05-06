@@ -18,10 +18,12 @@ function addItem(e) {
 
   // Create new li element
   const li = document.createElement('li');
-  // Add class
+  // Add class to li element
   li.className = 'list-group-item';
-  // Add text node with input value
+  // Add text node with input value to li
   li.appendChild(document.createTextNode(newItem));
+  // Append li to list
+  itemList.appendChild(li);
 
   // Create del button element
   const deleteBtn = document.createElement('button');
@@ -31,12 +33,9 @@ function addItem(e) {
   deleteBtn.appendChild(document.createTextNode('X'));
   // Append button to li
   li.appendChild(deleteBtn);
-
-  // Append li to list
-  itemList.appendChild(li);
 }
 
-//Remove item
+// Remove item
 function removeItem(e) {
   if (e.target.classList.contains('delete')) {
     if (confirm('Are You Sure?')) {
@@ -52,7 +51,7 @@ function filterItems(e) {
   const text = e.target.value.toLowerCase();
   // Get lists
   const items = itemList.getElementsByTagName('li');
-  // Convert to an array
+  // Convert HTML collection to an array
   Array.from(items).forEach(function (item) {
     const itemName = item.firstChild.textContent;
     if (itemName.toLowerCase().indexOf(text) != -1) {
