@@ -15,7 +15,7 @@
     <title>Travelville</title>
 </head>
 
-<body>
+<body id="home" class="scrollspy">
     <!-- Main Navbar -->
     <div class="navbar-fixed">
         <nav class="teal">
@@ -66,7 +66,7 @@
         </li>
     </ul>
 
-    <!-- Section Slider -->
+    <!-- Section: Slider -->
     <section class="slider">
         <ul class="slides">
             <li>
@@ -94,6 +94,21 @@
                 </div>
             </li>
         </ul>
+    </section>
+
+    <!-- Section: Search -->
+    <section id="search" class="section section-search teal darken-1 white-text center scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3>Search Destinations</h3>
+                    <div class="input-field">
+                        <input type="text" class="white grey-text autocomplete" id="autocomplete-input"
+                            placeholder="Aruba, Cancun, etc...">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Compiled and minified JavaScript -->
